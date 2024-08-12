@@ -17,9 +17,7 @@ title: Home
         <nav>
             <ul>
                 <li><a href="{{ '/' | relative_url }}">Home</a></li>
-                <li><a href="{{ '/about' | relative_url }}">About</a></li>
-                <li><a href="{{ '/research' | relative_url }}">Research</a></li>
-                <li><a href="{{ '/publications' | relative_url }}">Publications</a></li>
+                <li><a href="{{ '/about' | relative_url }}">Research</a></li>
             </ul>
         </nav>
     </header>
@@ -50,14 +48,14 @@ title: Home
         </section>
     </main>
 
-<!--    <footer>-->
-<!--    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>-->
-<!--    <p>-->
-<!--        <a href="https://github.com/{{ site.github_username }}">GitHub</a> |-->
-<!--        <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a> |-->
-<!--        <a href="https://twitter.com/your_twitter_handle">Twitter</a> |-->
-<!--        <a href="mailto:{{ site.email }}">Email</a>-->
-<!--    </p>-->
-<!--</footer>-->
+    <footer>
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+    <p>
+        <a href="https://github.com/{{ site.github_username }}">GitHub</a> |
+        <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a> |
+        <a href="https://twitter.com/your_twitter_handle">Twitter</a> |
+        <a href="mailto:{{ site.email }}">Email</a>
+    </p>
+</footer>
 </body>
 </html>
