@@ -6,10 +6,9 @@ permalink: /about/
 
 ## Biography
 
-I am a researcher in computational neuroscience and machine learning. My focus is in developing algorithms for speech decoding in neural recordings as part of the Laboratory of Speech Neuroscience at Stanford University. 
+I am a researcher in computational neuroscience and machine learning, currently focused on developing algorithms for speech decoding from neural recordings at the Laboratory of Speech Neuroscience at Stanford University. My work involves leveraging machine learning techniques to interpret neural data, contributing to understanding how the brain processes speech and language. 
 
-I would like to apply the programming and research skills I have developed towards doing technical work in AI alignment and policy development. 
-
+I am transitioning into AI alignment and policy development, with a focus on ensuring that AI systems are developed safely and aligned with the values, preferences, and limitations of their users.
 
 ### Connect with Me
 - [LinkedIn](https://www.linkedin.com/in/derek-rosenzweig-bba07b233/)
