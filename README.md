@@ -1,3 +1,3 @@
-A personal website through github.io for sharing code and writing on projects as well as notes on topics of interest. 
+A personal website for sharing projects, code, and notes on topics of interest.  
 
-Reach out at derek.rosenzweig@stanford.edu
+Feel free to reach out to me at derek.rosenzweig@stanford.edu
