@@ -53,17 +53,3 @@ defaults:
       type: "research"
     values:
       layout: "research"
-
-## Additional settings
-#author:
-#  name: Derek Rosenzweig
-#  bio: >-
-#    Researcher in Computational Neuroscience and Machine Learning,
-#    focusing on speech decoding from neural recordings at Stanford University.
-
-# Google Analytics
-# google_analytics: UA-XXXXXXXX-X
-
-# Disqus Comments
-# disqus:
-#   shortname: your-disqus-shortname
