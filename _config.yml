@@ -7,7 +7,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dr2633.github.io" # the base hostname & protocol for your site
 
-# Social media profiles - Feel free to add other social media if you use them
+# Social media profiles
 github_username: dr2633
 linkedin_username: derek-rosenzweig-bba07b233
 
@@ -30,12 +30,6 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
-# Collections
-collections:
-  research:
-    output: true
-    permalink: /:collection/:path/
-
 # Defaults
 defaults:
   - scope:
@@ -43,13 +37,60 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-      type: "research"
-    values:
-      layout: "research"
+
+
+# # Site settings
+# title: Derek Rosenzweig
+# email: derek.rosenzweig@stanford.edu
+# description: >- # this means to ignore newlines until "baseurl:"
+#   Personal website of Derek Rosenzweig, researcher in Computational Neuroscience 
+#   and Machine Learning, focusing on speech decoding from neural recordings.
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "https://dr2633.github.io" # the base hostname & protocol for your site
+
+# # Social media profiles - Feel free to add other social media if you use them
+# github_username: dr2633
+# linkedin_username: derek-rosenzweig-bba07b233
+
+# # Build settings
+# markdown: kramdown
+# theme: minima # You can change this to a different theme if desired
+
+# # Plugins
+# plugins:
+#   - jekyll-feed
+#   - jekyll-seo-tag
+
+# # Exclude from processing
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# # Collections
+# collections:
+#   research:
+#     output: true
+#     permalink: /:collection/:path/
+
+# # Defaults
+# defaults:
+#   - scope:
+#       path: ""
+#       type: "pages"
+#     values:
+#       layout: "default"
+#   - scope:
+#       path: ""
+#       type: "posts"
+#     values:
+#       layout: "post"
+#   - scope:
+#       path: ""
+#       type: "research"
+#     values:
+#       layout: "research"
