@@ -1,24 +1,24 @@
 ## Derek Rosenzweig
 
-### About Me
+[Email](mailto:derek.rosenzweig1@gmail.com) | [GitHub](https://github.com/dr2633) | [LinkedIn](https://linkedin.com/in/derek-rosenzweig)
 
-I am a research scientist at Stanford University's Laboratory of Speech Neuroscience, specializing in computational neuroscience and deep learning. My work focuses on developing algorithms for speech decoding and exploring the intersection of AI and neuroscience.
+### Background
 
--  Currently living in San Francisco, CA; grew up in New York
--  Studied at Cornell University and NYU
--  Applications of mechanistic interpretability (e.g., sparse autoencoders) for identifying non-trivial and useful features in biological signals
+- **Research Scientist**: Stanford University, Laboratory of Speech Neuroscience
+  - Specialization: Computational neuroscience and deep learning
+  - Focus: Developing algorithms for speech decoding and exploring AI-neuroscience intersections
+- **Education**:
+  - **MA, Psychology**: New York University, 2022
+  - **BA, Government**: Cornell University, 2020
+- **Current Location**: San Francisco, CA
+- **Hometown**: New York
 
-## Research Interests
+### Research Interests
 
-My research spans biology, social behavior, and AI alignment. I am particularly focused on the challenge of aligning AI systems with human values and understanding the complexities of biological and social systems. Key areas of interest include:
-
-- **Integrating Time-Resolved Recording Modalities**: Developing techniques for integrating measurements across recording modalities at different temporal and spatial scales (e.g., fMRI, EEG, spikes). I have developed scripts for aligning hidden layer activations across layers of speech and language models with intracranial electrode recordings at a 100 Hz sample rate, enhancing the interpretability of speech decoding models.
-
-- **Alignment Between Artificial and Biological Systems**: Using foundation models to predict and mitigate potential misalignments in complex biological systems, such as developmental biology, psychiatry and neuroimaging data, and ecosystem imbalances.
-
-- **Text Transcription of Biological Signals**: I am interested in transcribing biological signals into texts for model inputs and steerability. The practice of converting sensor data to text will represent a monumental opportunity for practical implementation of tools developed in the alignment community to biomedical applications. Developing a framework for extracting meaningful statistical structure from embeddings of speech models may be an important step in this direction.
-
-- **Policy Development and Implementation**: Understanding how insights from biological and artificial neural networks can inform adaptable policy development and implementation. This includes understanding the features that models use to inform policy decisions, the frameworks and heuristics of models deployed in healthcare, infrastructure planning and development, and social systems.
+- **Mechanistic Interpretability**: Applications of sparse autoencoders to identify non-trivial features in biological signals
+- **Integrating Time-Resolved Recording Modalities**: Techniques for aligning measurements across fMRI, EEG, and action potentials; enhancing interpretability of speech decoding models 
+- **Text Transcription of Biological Signals**: Developing frameworks to transcribe biological signals into text for model inputs and steerability
+- **Policy Development**: Leveraging insights from neural networks to inform adaptable policy development and implementation
 
 ## Personal Interests 
 
@@ -37,8 +37,3 @@ I am an avid fan of libraries and especially enjoy taking random walks through h
 - Prepare for a world in which we defer most important decisions in life to systems with more intelligence and predictive capacity than the combined efforts of all humans.
 - Ensure that world is as vibrant and filled with opportunity for future generations.
 - Live to see the New York Jets win a Super Bowl and the New York Knicks win a championship. Open for friendly bets on which of these events will happen first.
-
-## Connect with Me
-
-- **Personal Email**: [derek.rosenzweig1@gmail.com](mailto:derek.rosenzweig1@gmail.com)
-- **GitHub**: [https://github.com/dr2633](https://github.com/dr2633)
