@@ -1,8 +1,5 @@
----
-layout: page
-title: About Me
-permalink: /about/
----
+# Derek Rosenzweig
+
 
 ## About Me
 
