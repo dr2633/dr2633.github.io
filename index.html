@@ -1,0 +1,53 @@
+---
+layout: default
+title: Home
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title }} - {{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+</head>
+<body>
+
+    <header>
+    <h1>{{ site.title }}</h1>
+    <nav>
+        <ul>
+            <li><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li><a href="{{ '/research' | relative_url }}">Research</a></li>
+            <li><a href="{{ '/notes' | relative_url }}">Notes</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <main>
+        <section id="intro">
+            <h2>Research Statement</h2>
+            <p>{{ site.description }}</p>
+        </section>
+
+        <section id="current-work">
+            <h2>Current Work</h2>
+            <p>I am a researcher in computational neuroscience and machine learning at the Laboratory of Speech Neuroscience at Stanford University. My work focuses on developing algorithms for speech decoding from neural recordings.</p>
+        </section>
+
+        <section id="featured-research">
+            <h2>Featured Projects</h2>
+            <ul>
+                <li>
+                    <h3>Invariance Across Speaker Variations in Intracranial Recordings and Artificial Neural Networks</h3>
+                    <p>Derek Rosenzweig, Josef Parvizi, Laura Gwilliams (2024)</p>
+                </li>
+                <li>
+                    <h3>Applications of Deep Learning in Computational Neuroscience</h3>
+                    <p>Derek Rosenzweig, Jiankai Sun, Charlie Jiang, Daniel Yamins (2024)</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
