@@ -13,7 +13,7 @@ linkedin_username: derek-rosenzweig-bba07b233
 
 # Build settings
 markdown: kramdown
-theme: minima # You can change this to a different theme if desired
+# theme: minima # You can change this to a different theme if desired
 
 # Plugins
 plugins:
