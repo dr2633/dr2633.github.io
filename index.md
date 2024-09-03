@@ -1,13 +1,17 @@
-# Derek Rosenzweig
 
+---
+layout: none
+---
 
-## About Me
+## Derek Rosenzweig
+
+### About Me
 
 I am a research scientist at Stanford University's Laboratory of Speech Neuroscience, specializing in computational neuroscience and deep learning. My work focuses on developing algorithms for speech decoding and exploring the intersection of AI and neuroscience.
 
-- **Location**: Currently living in San Francisco, CA; grew up in New York
-- **Education**: Studied at Cornell University and NYU
-- **Interests**: Applications of mechanistic interpretability (e.g., sparse autoencoders) for identifying non-trivial and useful features in biological signals
+-  Currently living in San Francisco, CA; grew up in New York
+-  Studied at Cornell University and NYU
+-  Applications of mechanistic interpretability (e.g., sparse autoencoders) for identifying non-trivial and useful features in biological signals
 
 ## Research Interests
 
@@ -15,11 +19,11 @@ My research spans biology, social behavior, and AI alignment. I am particularly 
 
 - **Integrating Time-Resolved Recording Modalities**: Developing techniques for integrating measurements across recording modalities at different temporal and spatial scales (e.g., fMRI, EEG, spikes). I have developed scripts for aligning hidden layer activations across layers of speech and language models with intracranial electrode recordings at a 100 Hz sample rate, enhancing the interpretability of speech decoding models.
 
-- **AI Alignment in Biological Systems**: Using foundation models to predict and mitigate potential misalignments in complex biological systems, such as developmental biology, psychiatry and neuroimaging data, and ecosystem imbalances.
+- **Alignment Between Artificial and Biological Systems**: Using foundation models to predict and mitigate potential misalignments in complex biological systems, such as developmental biology, psychiatry and neuroimaging data, and ecosystem imbalances.
 
-- **Transcription of Biological Signals**: I am interested in transcribing biological signals into texts for model inputs and steerability. The practice of converting sensor data to text will represent a monumental opportunity for practical implementation of tools developed in the alignment community to biomedical applications. Developing a framework for extracting meaningful statistical structure from embeddings of speech models may be an important step in this direction.
+- **Text Transcription of Biological Signals**: I am interested in transcribing biological signals into texts for model inputs and steerability. The practice of converting sensor data to text will represent a monumental opportunity for practical implementation of tools developed in the alignment community to biomedical applications. Developing a framework for extracting meaningful statistical structure from embeddings of speech models may be an important step in this direction.
 
-- **Policy Development and Alignment**: Understanding how insights from biological and artificial neural networks can inform adaptable policy development and implementation. This includes understanding the features that models use to inform policy decisions, the frameworks and heuristics of models deployed in healthcare, infrastructure planning and development, and social systems.
+- **Policy Development and Implementation**: Understanding how insights from biological and artificial neural networks can inform adaptable policy development and implementation. This includes understanding the features that models use to inform policy decisions, the frameworks and heuristics of models deployed in healthcare, infrastructure planning and development, and social systems.
 
 ## Personal Interests 
 
