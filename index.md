@@ -20,11 +20,12 @@ San Francisco, CA
 
 New York
 
-**Professional Role:**  
+**Role:**  
+
 Research Scientist, Stanford University, Laboratory of Speech Neuroscience
 
 - Specialization in computational neuroscience and deep learning
-- Focus on developing algorithms for speech decoding and exploring AI-neuroscience intersections
+- Focus on developing algorithms for modeling auditory and language processing in the brain during speech
 
 ---
 
@@ -34,7 +35,7 @@ Research Scientist, Stanford University, Laboratory of Speech Neuroscience
 
 Applications of sparse autoencoders to identify non-trivial features in biological signals.
 
-**Integrating Time-Resolved Recording Modalities**
+**Integrating Recording Modalities**
 
 Techniques for aligning measurements across fMRI, EEG, and action potentials, enhancing interpretability of speech decoding models.
 
@@ -42,7 +43,7 @@ Techniques for aligning measurements across fMRI, EEG, and action potentials, en
 
 Developing frameworks to transcribe biological signals into text for model inputs and steerability.
 
-**Policy Development**
+**Policy Design and Implementation**
 
 Leveraging insights from neural networks to inform adaptable policy development and implementation.
 
@@ -52,18 +53,25 @@ Leveraging insights from neural networks to inform adaptable policy development 
 
 **Live Music**
 
-I enjoy exploring new venues and experiencing live music, particularly the music of the Grateful Dead. You can explore my favorite shows from the archive here: [Grateful Dead Archive](#).
+I love traveling and exploring new venues for live music, particularly the music of the Grateful Dead. 
 
-**Libraries**
+Check out recordings here: [Grateful Dead Archive](https://archive.org/details/GratefulDead).
 
-An avid fan of libraries, I especially enjoy taking random walks through historic libraries and stumbling upon interesting books.
+**Random Walks Through Libraries**
 
-- Favorite Library: Uris Library, Cornell University, Ithaca, NY
+I enjoy random walks through the stacks of historic libraries, finding my way towards new books and ideas.
 
----
+Personal Favorite: [Uris Library](https://www.cornell.edu/tour/ADWhiteReadingRoom), Cornell University, Ithaca, NY
 
-### Life Goals
 
-- Prepare for a world in which we defer most important decisions in life to systems with more intelligence and predictive capacity than the combined efforts of all humans.
-- Ensure that world is vibrant and filled with opportunity for future generations.
-- Live to see the New York Jets win a Super Bowl and the New York Knicks win a championship. Open for friendly bets on which of these events will happen first.
+**Long-Horizon Predictions**
+
+I am working in preparation for a world in which we defer most important life decisions to intelligent systems with more capabilities and agency that the combined efforts of all humans. 
+
+My goal is to ensure that this world is vibrant, exciting, and filled with opportunities for future generations that we currently can't conceive of today. 
+
+I would like to see the New York Jets win a Super Bowl and the New York Knicks put up a championship banner at MSG, 
+
+Open for friendly bets on which of these events will happen first. 
+
+
