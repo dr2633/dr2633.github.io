@@ -1,8 +1,9 @@
-## Derek Rosenzweig
-
-[Email](mailto:derek.rosenzweig1@gmail.com) | [GitHub](https://github.com/dr2633) | [LinkedIn](https://linkedin.com/in/derek-rosenzweig)
-
----
+<h1 style="display: inline;">Derek Rosenzweig</h1>
+<span style="display: inline; margin-left: 20px;">
+    <a href="mailto:derek.rosenzweig1@gmail.com">Email</a> |
+    <a href="https://github.com/dr2633">GitHub</a> |
+    <a href="https://linkedin.com/in/derek-rosenzweig">LinkedIn</a>
+</span>
 
 ### Background
 
@@ -12,9 +13,11 @@
 - BA, Government, Cornell University, 2020
 
 **Location:**  
+
 San Francisco, CA
 
 **Hometown:**  
+
 New York
 
 **Professional Role:**  
