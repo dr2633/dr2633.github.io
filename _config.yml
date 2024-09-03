@@ -1,0 +1,27 @@
+# Minimal _config.yml for GitHub Pages deployment
+
+title: "Derek Rosenzweig"
+description: "Personal website of Derek Rosenzweig"
+baseurl: "" # Leave this empty unless you are serving the site from a subdirectory
+url: "https://your-github-username.github.io" # Replace with your actual GitHub Pages URL
+
+# Keep the markdown processing engine
+markdown: kramdown
+
+# Set the theme to none
+theme: jekyll-theme-minimal
+
+# Disable any default Jekyll features that you don't want
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - .sass-cache/
+  - _site/
+  - _config.yml
+
+# Plugins to ensure your site deploys correctly
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
