@@ -4,7 +4,6 @@ title: About Me
 permalink: /about/
 ---
 
-
 ## About Me
 
 I am a research scientist at Stanford University's Laboratory of Speech Neuroscience, specializing in computational neuroscience and deep learning. My work focuses on developing algorithms for speech decoding and exploring the intersection of AI and neuroscience.
@@ -51,9 +50,10 @@ Prepare for a world in which we defer most important decisions in life to system
 
 
 ## Connect with Me
-- [LinkedIn](https://www.linkedin.com/in/derek-rosenzweig-bba07b233/)
-- [GitHub](https://github.com/dr2633)
-- Email: derek.rosenzweig@stanford.edu
+
+- Personal Email: derek.rosenzweig1@gmail.com
+- Github: https://github.com/dr2633
+
 
 
 
