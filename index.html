@@ -27,6 +27,16 @@
         .contact-links a:hover {
             text-decoration: underline;
         }
+        /* Print-specific styles to avoid page breaks */
+        @media print {
+            h1, .contact-links, p {
+                page-break-inside: avoid; /* Prevents breaks inside these elements */
+            }
+            img {
+                page-break-inside: avoid; /* Ensures images won't be split across pages */
+                max-width: 100%; /* Ensures the image scales correctly */
+            }
+        }
     </style>
 </head>
 <body>
@@ -36,8 +46,7 @@
         <a href="https://github.com/dr2633">GitHub</a> |
         <a href="https://www.linkedin.com/in/derek-rosenzweig-511644114" target="_blank">LinkedIn</a>
     </div>
-
-
+    
      <p><strong>Role:</strong> Research Scientist, Stanford University,  <a href="https://gwilliams.sites.stanford.edu">Laboratory of Speech Neuroscience</a></p>
     <ul>
         <li>Specialization: Computational neuroscience and deep learning</li>
