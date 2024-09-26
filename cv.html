@@ -9,13 +9,14 @@
             font-family: "Times New Roman", Times, serif;
             font-size: 11pt;
             line-height: 1.6;
-            color: #333;
+            color: #000; /* Ensures all text is black */
             margin: 20px;
         }
         h1, h2, h3, h4 {
-            color: #007acc;
             margin-top: 25px;
             margin-bottom: 10px;
+            color: #000; /* Ensures headers are black */
+            font-weight: bold; /* All headers are bold */
         }
         h1 {
             display: inline;
@@ -28,7 +29,7 @@
         .contact-links a {
             margin-right: 15px;
             text-decoration: none;
-            color: #007acc;
+            color: #004080; /* Dark blue for links */
         }
         .contact-links a:hover {
             text-decoration: underline;
@@ -52,39 +53,44 @@
         .skills-section ul {
             columns: 2;
         }
+        img.research-pic {
+            display: block;
+            width: 150px;
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
-    <!-- Header Section -->
-    <h1>Derek Rosenzweig</h1>
-    <img src="figures/profile.jpg" alt="Profile Picture" width="150" class="profile-pic">
-    <div class="contact-links">
-        <a href="mailto:derek.rosenzweig1@gmail.com">derek.rosenzweig1@gmail.com</a> |
-        <a href="https://github.com/dr2633" target="_blank">GitHub</a> |
-        <a href="https://www.linkedin.com/in/derek-rosenzweig-511644114" target="_blank">LinkedIn</a>
-    </div>
 
+<!-- Header Section -->
+<h1>Derek Rosenzweig</h1>
+<img src="figures/profile.jpg" alt="Profile Picture" width="150" class="profile-pic">
+<div class="contact-links">
+    <a href="mailto:derek.rosenzweig1@gmail.com">derek.rosenzweig1@gmail.com</a> |
+    <a href="https://github.com/dr2633" target="_blank">GitHub</a> |
+    <a href="https://www.linkedin.com/in/derek-rosenzweig-511644114" target="_blank">LinkedIn</a>
+</div>
+
+</body>
+</html>
     <!-- Academic and Career Focus Section -->
-    <h2>Academic and Professional Interests</h2>
+    <h2>About Me</h2>
     <p>
-        My work lies at the intersection of machine learning, neuroscience, and AI safety. I specialize in developing deep learning models that analyze neural and speech data, focusing on aligning embeddings in artificial neural networks with time-resolved recordings of neural activity to understand how the brain processes auditory and language information.
+        I work at the intersection of machine learning, neuroscience, and AI safety. I specialize in developing deep learning models that analyze neural and speech data, focusing on aligning embeddings in artificial neural networks with time-resolved recordings of neural activity to understand how the brain processes auditory and language information.
     </p>
     <p>
-        I aim to make AI systems interpretable, reliable, and aligned with human values. My research spans computational neuroscience, AI safety, model evaluations, and Reinforcement Learning from Human Feedback (RLHF). I create tutorials on computational biology and computer science concepts, contributing to broader research dissemination.
+        My goal is to make AI systems interpretable, reliable, and aligned with human values. My current research spans neuroscience, model evaluations, and Reinforcement Learning from Human Feedback (RLHF). I create tutorials on computational biology and computer science concepts, contributing to the broader research community.
     </p>
-
 
     <hr>
 
-    <!-- Skills Section -->
+
     <h2>Technical Skills</h2>
     <div class="skills-section">
-        <ul>
-            <li><strong>Programming Languages</strong>: Python, MATLAB, JavaScript</li>
-            <li><strong>Machine Learning Frameworks</strong>: PyTorch, TensorFlow</li>
-            <li><strong>Tools</strong>: Git, Jupyter, MNE, TorchAudio</li>
-            <li><strong>Methodologies</strong>: sEEG, MEG, decoding models, cloud integrations</li>
-        </ul>
+    <ul>
+        <li><strong>Programming Languages</strong>: Python, MATLAB, Julia, R, JavaScript</li>
+        <li><strong>Machine Learning Frameworks</strong>: PyTorch, TensorFlow, JAX, scikit-learn</li>
+    </ul>
     </div>
 
     <hr>
@@ -94,16 +100,18 @@
 
     <h3>Stanford University, Laboratory of Speech Neuroscience</h3>
     <p><strong>Research Scientist</strong> (2023–Present)</p>
+    <img src="figures/stanford.jpg" alt="Stanford University" class="research-pic">
     <ul>
         <li>Investigated neural mechanisms of speech processing using stereotactic electroencephalography (sEEG) recordings.</li>
         <li>Applied decoding models to identify neural populations encoding auditory and language features.</li>
-        <li>Explored the alignment between embeddings in neural networks (e.g., wav2vec2.0, GPT-2) and neural responses in cortical and sub-cortical sites.</li>
+        <li>Alignment between embeddings in neural networks (e.g., wav2vec2.0, GPT-2) and neural population responses across recording sites for anatomical localization.</li>
         <li>Developed lab protocols for streamlined data acquisition, preprocessing, and analysis.</li>
     </ul>
     <p><a href="https://github.com/dr2633/Intracranial-Speech" target="_blank">Stereotactic Electroencephalography and Speech Processing</a></p>
 
     <h3>New York University, Department of Psychology</h3>
     <p><strong>Graduate Researcher</strong> (2021–2023)</p>
+    <img src="figures/nyu.jpg" alt="New York University" class="research-pic">
     <ul>
         <li>Conducted research on auditory and language processing at the Poeppel Lab and Max Planck NYU Center for Language, Music, and Emotion.</li>
         <li>Designed and executed behavioral and MEG studies to identify individuals with absolute pitch.</li>
@@ -113,6 +121,7 @@
 
     <h3>Cornell University, Department of Government</h3>
     <p><strong>Undergraduate Research Assistant</strong> (2018–2020)</p>
+    <img src="figures/cornell.jpg" alt="Cornell University" class="research-pic">
     <ul>
         <li>Thesis on energy geopolitics and trade dynamics in the South China Sea, analyzing the economic and security impacts of territorial disputes.</li>
         <li>Teaching assistant for a course on the science of social behavior, assisting with curriculum development and leading discussions.</li>
@@ -120,22 +129,27 @@
 
     <hr>
 
-    <!-- Personal Interests Section -->
-    <h2>Personal Interests</h2>
+<h2>Selected Projects</h2>
 
-    <p><strong>Random Walks Through Libraries and Bookstores</strong></p>
-    <p>I enjoy exploring historic libraries, finding inspiration in new books and ideas. Favorite spot: <a href="https://www.cornell.edu/tour/ADWhiteReadingRoom">Uris Library</a>, Cornell University.</p>
+<h3>CloudPref: Model Evaluation for Cloud Providers</h3>
+<p><strong>Lead Developer</strong> (2023–Present)</p>
+<ul>
+    <li>Developed a framework to elicit and evaluate model preferences for cloud providers (AWS, GCP, Azure), enabling models to differentiate between provider options based on specific scenarios.</li>
+    <li>Designed custom metrics to analyze model performance and behavior, optimizing recommendations for cost-effectiveness and deployment efficiency.</li>
+</ul>
+<p><a href="https://github.com/dr2633/CloudPref-METR" target="_blank">CloudPref: Evaluating LLM Integrations with Cloud Providers</a></p>
 
-    <p><strong>Travel and Live Music</strong></p>
-    <p>I love live music, particularly the Grateful Dead. <a href="https://archive.org/details/GratefulDead" target="_blank">Grateful Dead Archive</a></p>
+<h3>Intracranial Speech Processing</h3>
+<p><strong>Research Lead</strong> (2023–Present)</p>
+<ul>
+    <li>Developed a pipeline for analyzing stereotactic electroencephalography (sEEG) data, aligned with audio and language features in a speech task.</li>
+    <li>Created workflows to preprocess neural recordings, extract audio features (e.g., fundamental frequency, sound intensity) and language features (e.g., GPT-2 embeddings across layers, surprisal), and correlate them with neural responses.</li>
+    <li>Applied methods to compare electrode recordings with time-resolved annotations of auditory and language stimuli across participants.</li>
+    <li>Designed tools for visualizing stimulus onset, evoked responses to words and phonemes, and electrode responsiveness to language processing.</li>
+</ul>
+<p><a href="https://github.com/dr2633/Intracranial-Speech" target="_blank">Stereotactic Electroencephalography and Speech Processing</a></p>
 
-    <p><strong>Long-Horizon Predictions</strong></p>
-    <p>
-        My focus is ensuring that intelligent systems make critical decisions in a future where opportunities are abundant for generations to come. In the near term, I have three primary goals:
-        <br>1. New York Jets winning a Super Bowl
-        <br>2. New York Knicks securing an NBA championship
-        <br>3. Safe deployment of AGI
-    </p>
 
 </body>
 </html>
+
