@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derek Rosenzweig</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 11pt;
+            line-height: 1.6;
+            color: #000;
+            margin: 20px;
+        }
+        header, nav, main, footer {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header h1 {
+            font-size: 24pt;
+            margin: 0;
+        }
+        header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-left: 20px;
+        }
+        nav {
+            margin-top: 20px;
+            background-color: #f0f0f0;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #004080;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        h2 {
+            margin-top: 40px;
+            margin-bottom: 20px;
+            color: #000;
+            font-weight: bold;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+        h3 {
+            margin-top: 30px;
+            margin-bottom: 15px;
+            color: #000;
+            font-weight: bold;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        ul {
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            margin-top: 10px;
+        }
+        .contact-info a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #004080;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .research-pic {
+            width: 150px;
+            margin-top: 10px;
+        }
+        .skills-list {
+            columns: 2;
+            -webkit-columns: 2;
+            -moz-columns: 2;
+        }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 10pt;
+            color: #666;
+        }
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            header img {
+                margin-left: 0;
+                margin-top: 15px;
+            }
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+            .skills-list {
+                columns: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div>
+        <h1>Derek Rosenzweig</h1>
+        <div class="contact-info">
+            <a href="mailto:derek.rosenzweig1@gmail.com">Email</a> |
+            <a href="https://github.com/dr2633" target="_blank">GitHub</a> |
+            <a href="https://www.linkedin.com/in/derek-rosenzweig-511644114" target="_blank">LinkedIn</a>
+        </div>
+    </div>
+    <div style="text-align: center;">
+        <img src="figures/profile.jpg" alt="Profile Picture" style="width: 150px; object-position: top; object-fit: cover;">
+    </div>
+</header>
+
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Technical Skills</a>
+    <a href="#interests">Personal Interests</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<main>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+        I focus on the intersection of AI safety and computational neuroscience, where my research centers on developing advanced methods to analyze the relationship between speech and neural data. By aligning neural network embeddings with time-resolved brain activity, I aim to deepen our understanding of how the brain processes auditory and language information.
+        <p>
+        Building on my background in computational neuroscience, I now focus on AI safety, model evaluations, and Reinforcement Learning from Human Feedback (RLHF). I’m driven by the challenge of aligning AI systems with human values and user needs. In my view, developing techniques to elicit preferences from both models and users is essential for the safe, ethical deployment of AI and for optimizing its performance in real-world applications.
+        <p>
+        I contribute to the research community by creating and sharing tutorials on key concepts in computational biology and computer science. My goal is to develop AI systems that are reliable, aligned with human values and users' long-term objectives, while fostering scientific progress. I see these goals as intrinsically connected and mutually reinforcing.
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Selected Projects</h2>
+
+        <h3>CloudPref: Model Evaluation for Cloud Providers</h3>
+        <p><strong>Lead Developer</strong> (2023–Present)</p>
+        <ul>
+            <li>Developed a framework to elicit and evaluate model preferences for cloud providers (AWS, GCP, Azure), enabling models to differentiate between provider options based on specific scenarios.</li>
+            <li>Designed custom metrics to analyze model performance and behavior, optimizing recommendations for cost-effectiveness and deployment efficiency.</li>
+        </ul>
+        <p>
+            <a href="https://github.com/dr2633/CloudPref-METR" target="_blank">View Project on GitHub</a>
+        </p>
+
+        <h3>Intracranial Speech Processing</h3>
+        <p><strong>Research Lead</strong> (2023–Present)</p>
+        <ul>
+            <li>Developed a pipeline for analyzing stereotactic electroencephalography (sEEG) data, aligned with audio and language features in a speech task.</li>
+            <li>Created workflows to preprocess neural recordings, extract audio features (e.g., fundamental frequency, sound intensity) and language features (e.g., GPT-2 embeddings, surprisal), and correlate them with neural responses.</li>
+            <li>Applied methods to compare electrode recordings with time-resolved annotations of auditory and language stimuli across participants.</li>
+            <li>Designed tools for visualizing stimulus onset, evoked responses, and electrode responsiveness to language processing.</li>
+        </ul>
+        <p>
+            <a href="https://github.com/dr2633/Intracranial-Speech" target="_blank">View Project on GitHub</a>
+        </p>
+
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2>Experience</h2>
+
+        <h3>Stanford University, Laboratory of Speech Neuroscience</h3>
+        <p><strong>Research Scientist</strong> (2023–Present)</p>
+        <img src="figures/stanford.jpg" alt="Stanford University" class="research-pic">
+        <ul>
+            <li>Investigate neural mechanisms of speech processing using stereotactic electroencephalography (sEEG) recordings.</li>
+            <li>Apply decoding models to identify neural populations encoding auditory and language features.</li>
+            <li>Align embeddings in neural networks (e.g., wav2vec2.0, GPT-2) with neural population responses across recording sites for anatomical localization.</li>
+            <li>Develop lab protocols for streamlined data acquisition, preprocessing, and analysis.</li>
+        </ul>
+
+        <h3>New York University, Department of Psychology</h3>
+        <p><strong>Graduate Researcher</strong> (2021–2023)</p>
+        <img src="figures/nyu.jpg" alt="New York University" class="research-pic">
+        <ul>
+            <li>Conducted research on auditory and language processing at the Poeppel Lab and Max Planck NYU Center for Language, Music, and Emotion.</li>
+            <li>Designed and executed behavioral and MEG studies to identify individuals with absolute pitch.</li>
+            <li>Used magnetoencephalography (MEG) to measure audiovisual interference during a Stroop task, probing automatic label retrieval in individuals with absolute pitch.</li>
+        </ul>
+        <p>
+            <a href="files/MA.pdf" target="_blank">View Project Slides</a>
+        </p>
+
+        <h3>Cornell University, Department of Government</h3>
+        <p><strong>Undergraduate Research Assistant</strong> (2018–2020)</p>
+        <img src="figures/cornell.jpg" alt="Cornell University" class="research-pic">
+        <ul>
+            <li>Thesis on energy geopolitics and trade dynamics in the South China Sea, analyzing the economic and security impacts of territorial disputes.</li>
+            <li>Teaching assistant for a course on the science of social behavior, assisting with curriculum development and leading discussions.</li>
+        </ul>
+
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul class="skills-list">
+            <li><strong>Programming Languages:</strong> Python, MATLAB, Julia, R, JavaScript</li>
+            <li><strong>Machine Learning Frameworks:</strong> PyTorch, TensorFlow, JAX, scikit-learn</li>
+            <li><strong>Data Analysis:</strong> NumPy, pandas, SciPy, SQL</li>
+            <li><strong>Web Development:</strong> HTML, CSS, Flask, Django</li>
+        </ul>
+    </section>
+
+    <!-- Personal Interests Section -->
+    <section id="interests">
+        <h2>Personal Interests</h2>
+        <h3>Random Walks Through Libraries and Bookstores</h3>
+        <p>
+            I enjoy wandering through the stacks of historic libraries, discovering new books and ideas. One of my favorites is the <a href="https://www.cornell.edu/tour/ADWhiteReadingRoom" target="_blank">Uris Library</a> at Cornell University.
+        </p>
+        <img src="figures/uris_lib.jpg" alt="Uris Library, Cornell University" class="research-pic">
+
+        <h3>Travel and Live Music</h3>
+        <p>
+            I love exploring new venues for live music, particularly the music of the Grateful Dead. You can check out recordings at the <a href="https://archive.org/details/GratefulDead" target="_blank">Grateful Dead Archive</a>.
+        </p>
+
+        <h3>Long-Horizon Predictions</h3>
+        <p>
+            I am working towards a future where intelligent systems make critical decisions in our lives and policies. My focus is ensuring this future remains vibrant and filled with opportunities for generations to come.
+        </p>
+        <p>
+            While focusing on long-term outcomes, I have three near-term goals in sight:
+        </p>
+        <ul>
+            <li>New York Jets winning a Super Bowl (Rodgers holding a Lombardi trophy)</li>
+            <li>New York Knicks securing an NBA championship (Brunson gets a statue)</li>
+            <li>Secure deployment of AGI (Ilya achieves safe and secure superintelligence)</li>
+        </ul>
+        <p>
+            I’m open to friendly wagers on which of these events we’ll see first!
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>
+            Feel free to reach out if you're interested in my work or potential collaborations.
+        </p>
+        <p>
+            <strong>Email:</strong> <a href="mailto:derek.rosenzweig1@gmail.com">derek.rosenzweig1@gmail.com</a>
+        </p>
+        <p>
+            <strong>GitHub:</strong> <a href="https://github.com/dr2633" target="_blank">github.com/dr2633</a>
+        </p>
+        <p>
+            <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/derek-rosenzweig-511644114" target="_blank">linkedin.com/in/derek-rosenzweig-511644114</a>
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    &copy; 2023 Derek Rosenzweig
+</footer>
+
+</body>
+</html>
