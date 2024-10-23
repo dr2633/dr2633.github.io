@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derek Rosenzweig - CV</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 11pt;
+            line-height: 1.6;
+            color: #000;
+            margin: 20px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .left-column {
+            flex: 35%;
+            padding: 20px;
+            background-color: #f8f8f8;
+        }
+        .right-column {
+            flex: 65%;
+            padding: 20px;
+        }
+        header h1 {
+            font-size: 24pt;
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            font-size: 10pt;
+            margin-bottom: 20px;
+        }
+        h2 {
+            margin-top: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+        h3 {
+            margin-top: 15px;
+            font-size: 14pt;
+        }
+        ul {
+            margin-bottom: 15px;
+        }
+        .research-pic {
+            width: 100%;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        a {
+            color: #004080;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">
+            <header>
+                <h1>Derek Rosenzweig</h1>
+                <div class="contact-info">
+                    <p>Email: <a href="mailto:derek.rosenzweig1@gmail.com">derek.rosenzweig1@gmail.com</a></p>
+                    <p>Website: <a href="https://dr2633.github.io" target="_blank">dr2633.github.io</a></p>
+                    <p>GitHub: <a href="https://github.com/dr2633" target="_blank">github.com/dr2633</a></p>
+                    <p>LinkedIn: <a href="https://www.linkedin.com/in/derek-rosenzweig-511644114" target="_blank">linkedin.com/in/derek-rosenzweig</a></p>
+                </div>
+            </header>
+        </div>
+
+        <div class="right-column">
+            <section id="about">
+                <h2>About</h2>
+                <p>I focus on <strong>AI safety</strong>, specifically in <strong>model evaluations</strong> and Reinforcement Learning from Human Feedback (<strong>RLHF</strong>). My work is driven by the challenge of aligning AI systems with human values and user needs, with a focus on optimizing these systems for long-term goals that benefit individuals and organizations.</p>
+                <p>For more details on my research approach, see my blog post: <a href="../files/reverse-eval.pdf">Reverse Evaluations: Modeling Reward Functions from User Interaction</a> or <a href="../posts/post-2.html">Physically Grounded Intelligence</a>.</p>
+                <p>Though my current work focuses on AI safety, my experience in <strong>computational neuroscience</strong> has shaped my approach to aligning sensor data across temporal scales. In my past research, I developed methods for decoding speech from neural data and aligning neural network embeddings with time-resolved brain activity, deepening my understanding of how biological neural networks process auditory and language information.</p>
+                <p>My goal is to contribute to AI systems that are optimized to guide users toward long-term objectives, fostering security and scientific progress.</p>
+            </section>
+
+            <section id="skills">
+                <h2>Technical Skills</h2>
+                <ul>
+                    <li><strong>Programming Languages:</strong> Python, MATLAB, Julia, R, JavaScript</li>
+                    <li><strong>Machine Learning:</strong> PyTorch, TensorFlow, JAX, scikit-learn, CUDA</li>
+                </ul>
+            </section>
+
+            <section id="projects">
+    <h2>Projects</h2>
+
+    <h3>Intracranial Speech Processing
+        <a href="https://github.com/dr2633/Intracranial-Speech" target="_blank" style="font-size: 9pt; color: #004080; text-decoration: none;">[View Repository]</a>
+    </h3>
+                <img src="../figures/Features-Electrodes.png" alt="Intracranial Speech Project" class="research-pic"  style="width: 350px;">
+                <ul>
+        <li>
+            <strong>Measuring Invariance Across Speakers in Neural Activity</strong>—examining how speaker-invariant phoneme representations emerge across layers in neural networks and anatomical sites in the auditory pathway. Leveraged high spatial and temporal resolution of sEEG recordings with speech recognition models.
+        </li>
+        <li>
+        <strong>Feature-Responsive Electrode Identification</strong>: Correlated electrode activity in response to speech with key language and audio features, including GPT-2 and wav2vec2.0 embeddings, at a temporal resolution aligned with raw audio and neural recordings (100 Hz).
+        </li>
+        <li>
+            <strong>Anatomical Localization and Auditory Pathway</strong>: Analyzed transformations across the auditory hierarchy, identifying neural populations involved in specific speech processing aspects.
+        </li>
+    </ul>
+
+
+
+        <h3>GitHub Repository Structure Analyzer
+            <a href="https://github.com/dr2633/repo-analyzer" target="_blank" style="font-size: 9pt; color: #004080; text-decoration: none;">[View Repository]</a>
+        </h3>
+                            <img src="../figures/GitHub1.png" alt="Intracranial Speech Project" class="research-pic"  style="width: 50px; border: none;">
+                <ul>
+         <li>
+        <strong>Automated Repository Analysis</strong>: Developed a tool to extract, analyze, and evaluate GitHub repository structures, generating JSON outputs for structured comparison.
+        </li>
+        <li>
+        <strong>Batch Processing for Large-Scale Evaluations</strong>: Implemented batch processing to analyze multiple repositories from a CSV file, enabling large-scale repository evaluations.
+        </li>
+        <li>
+        <strong>Integration with GitHub API</strong>: Automated repository analysis and refactoring using GitHub API, facilitating improved organization and adherence to best practices.
+        </li>
+    </ul>
+
+
+
+    <h3>CloudPref: Model Evaluation for Cloud Providers
+        <a href="https://github.com/dr2633/CloudPref-METR" target="_blank" style="font-size: 9pt; color: #004080; text-decoration: none;">[View Repository]</a>
+    </h3>
+
+                        <img src="../figures/CloudSec-METR.png" alt="Intracranial Speech Project" class="research-pic"  style="width: 200px; border: none;">
+
+    <ul>
+        <li>
+            <strong>Customized METR Task Standard</strong>: Adapted the METR Task Standard for evaluating model preferences for cloud service providers across various data procurement and storage scenarios.
+        </li>
+        <li>
+        <strong>Eliciting Model Preferences</strong>: Developed model evaluations to elicit preferences for cloud providers (AWS, GCP, Azure), measuring and optimizing performance based on specific scenarios.
+        </li>
+        <li>
+        <strong>Ranking and Optimization Methods</strong>: Designed methods to rank cloud service providers, balancing cost-effectiveness and deployment efficiency.
+        </li>
+        </ul>
+
+
+
+</section>
+
+
+            <section id="experience">
+                <h2>Experience</h2>
+                <h3>Stanford University, Wu Tsai Neurosciences Institute</h3>
+                <p><strong>Research Scientist</strong> (2023–Present)<br><em>Stanford, CA</em></p>
+               <ul>
+                                   <img src="../figures/stanford.jpg" alt="Stanford University" class="research-pic"  style="width: 100px; border: none;">
+
+        <li>
+            <strong>sEEG Recordings and Speech Processing</strong>: Led research on neural mechanisms of speech processing using stereotactic electroencephalography (sEEG) recordings.
+        </li>
+        <li>
+            <strong>Decoding Models</strong>: Applied advanced decoding models to identify and localize neural populations encoding auditory and language features.
+        </li>
+        <li>
+            <strong>Alignment of Neural and Model Embeddings</strong>: Aligned neural network embeddings (e.g., wav2vec2.0, GPT-2) with neural population responses, improving anatomical localization across cortical sites.
+        </li>
+        <li>
+            <strong>Lab Management and Protocols</strong>: Developed and streamlined lab protocols for data acquisition, preprocessing, and analysis, leading to more efficient workflows and faster research outcomes.
+        </li>
+    </ul>
+
+                <h3>New York University, Government Department</h3>
+
+                <p><strong>Graduate Research Assistant</strong> (2021–2023)<br><em>New York, NY</em></p>
+            <ul>
+                                                <img src="../figures/nyu.jpg" alt="New York University" class="research-pic" style="width: 100px; border: none;">
+
+    <li>
+        <strong>Research in Auditory and Language Processing</strong>: Conducted research at the Poeppel Lab and Max Planck NYU Center for Language, Music, and Emotion, focusing on how the brain processes auditory and language information.
+    </li>
+    <li>
+        <strong>Magnetoencephalography (MEG) Studies</strong>: Applied MEG to measure audiovisual interference in a Stroop task, investigating automatic label retrieval in individuals with absolute pitch.
+    </li>
+</ul>
+
+
+</ul>
+
+
+                <h3>Cornell University, Department of Government</h3>
+
+                <p><strong>Undergraduate Research Assistant</strong> (2018–2020)<br><em>Ithaca, NY</em></p>
+                <ul>
+                                    <img src="../figures/cornell.jpg" alt="Cornell University" class="research-pic" style="width: 100px; border: none;">
+
+                    <li>
+                        <strong>Thesis Research in Energy Geopolitics</strong>: Conducted thesis research on energy geopolitics and trade dynamics in the South China Sea, analyzing the economic and geopolitical impacts of territorial disputes.
+                    </li>
+
+            </section>
+        </div>
+    </div>
+<footer style="margin-top: 40px; text-align: center; font-size: 10pt; color: #666;">
+    &copy; 2024 Derek Rosenzweig | Last updated: October 20, 2024
+</footer>
+</body>
+</html>
