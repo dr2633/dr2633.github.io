@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72c0b7b0-20c5-40ec-959e-5dea25d591ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/10-24-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-1-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cv/10-1-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10-24-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cv/10-24-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-24-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cv/9-24-index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +49,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/derekrosenzweig/Documents/GitHub/dr2633.github.io&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/derekrosenzweig/Documents/GitHub/dr2633.github.io/cv&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -58,6 +60,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cv" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/files" />
       <recent name="$PROJECT_DIR$/figures" />
@@ -104,6 +107,8 @@
       <workItem from="1729364840590" duration="4292000" />
       <workItem from="1729411834013" duration="25820000" />
       <workItem from="1729695614585" duration="8399000" />
+      <workItem from="1729895815321" duration="348000" />
+      <workItem from="1729896382323" duration="90000" />
     </task>
     <servers />
   </component>
