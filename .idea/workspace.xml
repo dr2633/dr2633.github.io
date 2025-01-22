@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72c0b7b0-20c5-40ec-959e-5dea25d591ba" name="Changes" comment="" />
+    <list default="true" id="72c0b7b0-20c5-40ec-959e-5dea25d591ba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/0-derek-rosenzweig-resume-12-23.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/derek-rosenzweig-resume.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/resume.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +51,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/derekrosenzweig/Documents/GitHub/dr2633.github.io/cv&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/derekrosenzweig/Documents/GitHub/dr2633.github.io&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -55,8 +62,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/cv" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/cv" />
       <recent name="$PROJECT_DIR$/files" />
       <recent name="$PROJECT_DIR$/figures" />
       <recent name="$PROJECT_DIR$/scratch" />
@@ -106,6 +113,10 @@
       <workItem from="1729896382323" duration="90000" />
       <workItem from="1729897777532" duration="10421000" />
       <workItem from="1730847056325" duration="5221000" />
+      <workItem from="1732029420323" duration="841000" />
+      <workItem from="1734846317045" duration="1203000" />
+      <workItem from="1734999009984" duration="4295000" />
+      <workItem from="1735070725436" duration="3396000" />
     </task>
     <servers />
   </component>
